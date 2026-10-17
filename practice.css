@@ -1,0 +1,23 @@
+*{
+    color: rgb(23, 95, 23);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.heading-bar{
+    background-color: #d1c9bd;
+}
+
+.main-area{
+    background-color: #F5EBDD;
+}
+
+.footer{
+    background-color: #d1c9bd;
+}
+
+a{
+    color: #b05f21;
+}
