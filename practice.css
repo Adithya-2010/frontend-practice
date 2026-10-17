@@ -4,20 +4,59 @@
     font-style: italic;
     line-height: 30px;
     text-align: justify;
+    box-sizing: border-box;
 }
 
 .heading-bar{
     background-color: #d1c9bd;
+    border: 2px ridge black;
+    margin: 5px;
+    padding: 5px;
 }
 
 .main-area{
     background-color: #F5EBDD;
+    border: 2px ridge black;
+    margin: 5px;
+    padding: 5px;
 }
 
 .footer{
     background-color: #d1c9bd;
+    border: 2px ridge black;
+    margin: 5px;
+    padding: 5px;
 }
 
 a{
     color: #b05f21;
+}
+
+.img1{
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imgbox{
+    display: flex;
+    background-color: #d1c9bd;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 5%;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    border: 2px ridge black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.caption{
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
 }
