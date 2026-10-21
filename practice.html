@@ -13,19 +13,20 @@
         <h1>Adithya Parthiban</h1>
         <nav class="links">
             <ul>
-                <li><a href="">Bio</a></li>
-                <li><a href="">Academics</a></li>
-                <li><a href="">Non-Academics</a></li>
+                <li><a href="#section">About me</a></li>
+                <li><a href="#myskills">My Skills</a></li>
+                <li><a href="#footer">Contact me</a></li>
             </ul>
         </nav>
     </header>
 
-
     <main class="main-area">
-        <p id="greeting">Welcome to my Page!</p>
-        <button id="greet-button" type="button">Say Hello</button>
+        <label for="name-input">Enter your name</label>
+        <input id="name-input" type="text">
+        <button id="welcome-button" type="button">Greet Me</button>
+        <p id="welcome-message">Hi</p>
         
-        <section class="section">
+        <section class="section" id="section">
             <div>
             <h1>About me</h1>
             <ul>
@@ -48,7 +49,7 @@
             </figure>
         </section>
         
-        <h1>My Skills</h1>
+        <h1 id="myskills">My Skills</h1>
         <section class="skillcards">
             <figure class="skillbox">
                 <img src="https://media.istockphoto.com/id/1329695738/vector/french.jpg?s=612x612&w=0&k=20&c=75So9YDz64jjROrsOB8yy68S4QKtCLh5FsDyi1OsZxA=" alt="Francais" class="img">
@@ -66,7 +67,7 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
             <h2>Contact Info</h2>
             <p>e-mail: adturbo7@gmail.com | ph. no: 8903051023</p>
             <form class="form">
